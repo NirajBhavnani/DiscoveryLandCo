@@ -22,3 +22,9 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Branches :-
+| Branch | Description |
+| --- | --- |
+| 1_Header_Footer | Common Navigation Bar and Footer are implemented |
+| 2_Gallery | Gallery Page implementation done  |
