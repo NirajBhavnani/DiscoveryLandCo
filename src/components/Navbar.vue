@@ -32,7 +32,7 @@ export default class HelloWorld extends Vue {}
 #header {
   display: flex;
   justify-content: center;
-  position: fixed;
+  position: absolute;
   z-index: 3;
   width: 100%;
   left: 0;
