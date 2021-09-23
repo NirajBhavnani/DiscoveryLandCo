@@ -28,5 +28,17 @@
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.2",
     "typescript": "~4.1.5"
-  }
+  },
+  "description": "## Project setup ``` npm install ```",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NirajBhavnani/DiscoveryLandCo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NirajBhavnani/DiscoveryLandCo/issues"
+  },
+  "homepage": "https://github.com/NirajBhavnani/DiscoveryLandCo#readme"
 }

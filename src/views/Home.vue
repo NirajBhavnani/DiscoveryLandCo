@@ -1,18 +1,37 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    
+    <video class="main-bg" autoplay muted loop>
+      <source src="@/assets/timelapse.mp4" type="video/mp4" />
+    </video>
+    
   </div>
 </template>
 
 <script lang="ts">
-import { Options, Vue } from 'vue-class-component';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
+import { Options, Vue } from "vue-class-component";
+
+
 
 @Options({
-  components: {
-    HelloWorld,
-  },
+  name:"Home",
+  
 })
 export default class Home extends Vue {}
 </script>
+
+<style scoped lang="scss">
+.home {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  video.main-bg {
+    min-width: 100vw;
+    min-height: 100vh;
+    left: 0;
+    top: 0;
+    // position: absolute;
+  }
+}
+</style>
