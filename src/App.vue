@@ -6,8 +6,8 @@
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
-import Navbar from '@/components/Navbar.vue'  // @ is an alias to /src
-import Footer from '@/components/Footer.vue'
+import Navbar from '@/components/Navbar/Navbar.vue'  // @ is an alias to /src
+import Footer from '@/components/Footer/Footer.vue'
 
 @Options({
   name: "App",
