@@ -14,7 +14,7 @@
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
-import OurWorldsCard from "../components/TempOurWorldsCard.vue";
+import OurWorldsCard from "../components/OurWorldsCard.vue";
 
 @Options({
   name: "OurWorlds",
