@@ -7,11 +7,11 @@
         /></router-link>
       </div>
       <div id="nav-links">
-        <router-link to="/about-dlc">About DLC</router-link>
-        <router-link to="/our-worlds">Our Worlds</router-link>
-        <router-link to="/experiences">Experiences</router-link>
-        <router-link to="/gallery">Gallery</router-link>
-        <router-link to="/press">Press</router-link>
+        <router-link to="/about-dlc"><p class="hover-underline-animation">About DLC</p></router-link>
+        <router-link to="/our-worlds"><p class="hover-underline-animation">Our Worlds</p></router-link>
+        <router-link to="/experiences"><p class="hover-underline-animation">Experiences</p></router-link>
+        <router-link to="/gallery"><p class="hover-underline-animation">Gallery</p></router-link>
+        <router-link to="/press"><p class="hover-underline-animation">Press</p></router-link>
         <router-link to="/">&#x2630;</router-link>
       </div>
     </div>
@@ -66,5 +66,29 @@ export default class HelloWorld extends Vue {}
       color: #fff;
     }
   }
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom right;
+  transition: transform 0.35s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 </style>
