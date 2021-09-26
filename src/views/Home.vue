@@ -1,11 +1,7 @@
 <template>
   <div class="home">
     
-    <video class="main-bg" autoplay muted loop>
-      <source src="@/assets/discovery.mp4" type="video/mp4" />
-    </video>
-    
-    <Title :bText="elements.boldText" :lText="elements.lightText"/>
+    <Title :bText="elements.boldText" :lText="elements.lightText" :video="elements.video"/>
 
   </div>
 </template>
@@ -25,6 +21,7 @@ import Title from "@/components/Title/Title.vue"
       elements: {} as {
         boldText: string;
         lightText: string;
+        video: string;
       }[],
     };
   },
@@ -32,6 +29,7 @@ import Title from "@/components/Title/Title.vue"
     this.elements = {
       boldText: "Discover",
       lightText: "your world",
+      video: require("@/assets/discovery.mp4")
     }
   }
 })
@@ -43,9 +41,5 @@ export default class Home extends Vue {}
   overflow: hidden;
   width: 100%;
   position: relative;
-  video.main-bg {
-    min-width: 100%;
-    min-height: 100vh;
-  }
 }
 </style>

@@ -8,6 +8,9 @@ import { Options, Vue } from "vue-class-component";
         },
         lText : {
             type: String
+        },
+        video : {
+            type: String
         }
     }
 })
