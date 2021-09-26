@@ -70,3 +70,14 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+a.router-link-exact-active{
+  p{
+    text-decoration: underline #fff;
+    text-underline-position: under;
+    text-decoration-thickness: 1px;
+  }
+  .hover-underline-animation:after{
+    height: 0;
+  }
+}
