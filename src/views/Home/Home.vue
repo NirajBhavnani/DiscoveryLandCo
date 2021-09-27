@@ -5,7 +5,6 @@
       <Title :bText="elements.boldText" :lText="elements.lightText" :video="elements.video"/>
     </div>
       <TxtImg2 :header1="elements.header1" :header2="elements.header2" :paragraph="elements.paragraph" :imgRight="elements.imgRight" :imgLeft="elements.imgLeft" :background="require('@/assets/TxtImg2/Background.jpg')"/>
-      <p>HEEEEEEEEEEEEEEEEEEEEEE</p>
   </div>
 </template>
 
