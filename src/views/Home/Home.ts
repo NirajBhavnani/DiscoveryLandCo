@@ -1,14 +1,3 @@
-<template>
-  <div>
-    <div class="home">
-    
-      <Title :bText="elements.boldText" :lText="elements.lightText" :video="elements.video"/>
-    </div>
-      <TxtImg2 :header1="elements.header1" :header2="elements.header2" :paragraph="elements.paragraph" :imgRight="elements.imgRight" :imgLeft="elements.imgLeft" :background="require('@/assets/TxtImg2/Background.jpg')"/>
-  </div>
-</template>
-
-<script lang="ts">
 import { Options, Vue } from "vue-class-component";
 import Title from "@/components/Title/Title.vue"
 import TxtImg2 from "@/components/TxtImg2/TxtImg2.vue"
@@ -53,12 +42,3 @@ import TxtImg2 from "@/components/TxtImg2/TxtImg2.vue"
   }
 })
 export default class Home extends Vue {}
-</script>
-
-<style scoped lang="scss">
-.home {
-  overflow: hidden;
-  width: 100%;
-  position: relative;
-}
-</style>

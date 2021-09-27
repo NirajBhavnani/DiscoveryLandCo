@@ -1,20 +1,5 @@
-<template>
-  <section class="main">
-    <div class="our-worlds-cards">
-      <OurWorldsCard
-        v-for="(image, index) in images"
-        :key="index"
-        :pic="image.location_images"
-        :title="image.title"
-        :subtitle="image.subtitle"
-      />
-    </div>
-  </section>
-</template>
-
-<script lang="ts">
 import { Options, Vue } from "vue-class-component";
-import OurWorldsCard from "../components/OurWorldsCard/OurWorldsCard.vue";
+import OurWorldsCard from "../../components/OurWorldsCard/OurWorldsCard.vue";
 
 @Options({
   name: "OurWorlds",
@@ -144,27 +129,3 @@ import OurWorldsCard from "../components/OurWorldsCard/OurWorldsCard.vue";
   },
 })
 export default class OurWorlds extends Vue {}
-</script>
-
-<style scoped lang="scss">
-  .main {
-    background: #111;
-    .our-worlds-cards {
-      color: #fff;
-      padding: 35vh 1rem 15vh 1rem;
-      @media screen and (min-width: 500.1px) and (max-width: 1000px) {
-        padding: 20vh 1rem 10vh 1rem;
-      }
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      column-gap: 1rem;
-      row-gap: 4rem;
-      @media screen and (min-width: 500.1px) and (max-width: 1000px) {
-        grid-template-columns: repeat(3, 1fr);
-      }
-      @media screen and (max-width: 500px) {
-        grid-template-columns: repeat(2, 1fr);
-      }
-    }
-  }
-</style>
