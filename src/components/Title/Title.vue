@@ -1,6 +1,6 @@
 <template>
 
-  <video class="main-bg" autoplay muted loop>
+  <video class="main-bg" autoplay muted loop :style='{"background-image": `url(${imageBg})`}'>
     <source :src="video" type="video/mp4" />
   </video>
 

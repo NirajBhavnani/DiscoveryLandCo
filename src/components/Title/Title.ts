@@ -11,6 +11,9 @@ import { Options, Vue } from "vue-class-component";
         },
         video : {
             type: String
+        },
+        imageBg : {
+            type: String
         }
     }
 })
