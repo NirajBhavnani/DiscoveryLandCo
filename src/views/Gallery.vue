@@ -16,7 +16,7 @@
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
-import GalleryCard from "@/components/GalleryCard.vue";
+import GalleryCard from "@/components/GalleryCard/GalleryCard.vue";
 
 @Options({
   name: "Gallery",
