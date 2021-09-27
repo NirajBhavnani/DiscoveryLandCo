@@ -30,3 +30,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 | 2_Gallery | Gallery Page implementation done  |
 | 3_OurWorlds | Our Worlds Page implementation done  |
 | 4_Title | Title component(first component of the screen) added  |
+| 5_TxtImg2 | 2nd component(One text content and two images on the top right and bottom left) added  |
