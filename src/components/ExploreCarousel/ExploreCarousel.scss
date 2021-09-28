@@ -73,20 +73,21 @@
   width: 25vw;
   height: 72vh;
   margin: 2px -8px;
-  padding-bottom: 2rem;
-  @media screen and (max-width: 1024px) {
-    width: 30vw;
-  }
-  @media screen and (max-width: 900px) {
-    width: 35vw;
-  }
-  @media screen and (max-width: 750px) {
-    width: 40vw;
-    height: 68vh;
-  }
   @media screen and (max-width: 500px) {
     width: 55vw;
     height: 50vh;
+  }
+  @media screen and (min-width: 500.1px) and (max-width: 750px) {
+    width: 40vw;
+    height: 68vh;
+  }
+  @media screen and (min-width: 750.1px) and (max-width: 900px) {
+    width: 35vw;
+    height: 50vh;
+  }
+  @media screen and (min-width: 900.1px) and (max-width: 1024px) {
+    width: 30vw;
+    height: 65vh;
   }
 
   overflow: hidden;
