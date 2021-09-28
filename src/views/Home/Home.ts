@@ -1,13 +1,14 @@
 import { Options, Vue } from "vue-class-component";
 import Title from "@/components/Title/Title.vue"
 import TxtImg2 from "@/components/TxtImg2/TxtImg2.vue"
-
+import ExploreCarousel from "@/components/ExploreCarousel/ExploreCarousel.vue";
 
 @Options({
   name:"Home",
   components: {
     Title,
-    TxtImg2
+    TxtImg2,
+    ExploreCarousel
   },
   data() {
     return {

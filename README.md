@@ -31,3 +31,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 | 3_OurWorlds | Responsive Our Worlds Page implementation done (Grid) |
 | 4_Title | Title component(first component of the screen) added and also dynamically improved contents |
 | 5_TxtImg2 | 2nd component(One text content and two images on the top right and bottom left) added (Dynamically improved)  |
+| 6_ExploreCarousel | Carousel- auto scroll as well as header section added and made responsive |

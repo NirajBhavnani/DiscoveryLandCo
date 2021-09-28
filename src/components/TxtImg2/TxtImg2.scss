@@ -5,16 +5,16 @@
 }
 
 #TxtImg2 {
-    padding: 8rem 7rem;
+    padding: 8rem 5rem 5rem 5rem;
     @media screen and (max-width: 900px) {
       padding: 4rem 0;
     }
 
     display: grid;
-    column-gap: 8rem;
+    column-gap: 6rem;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr 1fr;
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 1024px) {
       column-gap: 4rem;
       row-gap: 2rem;
       grid-template-columns: 1fr;
@@ -23,10 +23,10 @@
 .top-left {
   display: flex;
   flex-direction: column;
-  row-gap: 3rem;
+  row-gap: 2rem;
   text-align: left;
-  padding-left: 2rem;
-  @media screen and (max-width: 1000px) {
+  padding-left: 1.4rem;
+  @media screen and (max-width: 1024px) {
     row-gap: 2rem;
     padding: 2rem;
   }
@@ -56,13 +56,17 @@
     @media screen and (max-width: 500px) {
       font-size: 0.9rem;
       line-height: 1.5rem;
+      padding-right: 2rem;
+    }
+    @media screen and (max-width: 1024px) {
+      padding-right: 8rem;
     }
   }
 }
 
 .right {
   grid-row: span 2;
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1024px) {
     padding: 0 2rem;
   }
 

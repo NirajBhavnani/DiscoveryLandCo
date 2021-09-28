@@ -22,14 +22,14 @@ video.main-bg {
     font-weight: 100;
     padding: 0 20rem;
 
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1024px) {
       font-size: 3rem;
       line-height: 2.5rem;
     }
     @media screen and (max-width: 500px) {
       padding: 0 1rem;
     }
-    @media screen and (min-width: 500.1px) and (max-width: 1000px) {
+    @media screen and (min-width: 500.1px) and (max-width: 1024px) {
       padding: 0 2rem;
     }
   }
@@ -43,7 +43,7 @@ video.main-bg {
     color: hsla(0, 0%, 100%, 0.75);
     padding: 15rem 0 0 12rem;
     
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1024px) {
       padding: 15rem 0 0 2rem;
       font-size: 1rem;
     }
