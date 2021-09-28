@@ -2,8 +2,8 @@
   <div class="explore-container">
     <div class="explore-top">
       <div class="explore-header">
-        <span class="header-first-half"> Explore </span>
-        <span class="header-second-half"> our worlds </span>
+        <span class="header-first-half"> {{ carouselH1 }} </span>
+        <span class="header-second-half"> {{ carouselH2 }} </span>
       </div>
       <div class="button-pair">
         <button class="left-button">&#8592;</button>
@@ -11,10 +11,10 @@
       </div>
     </div>
     <div class="slider">
-        <div class="slider-track" v-for="items in ourWorldList" :key="items.title">
+        <div class="slider-track" v-for="items in carousel" :key="items.title">
             <div class="slide">
                 <div class="image-holder">
-                    <img :src="getImgURL(items.pic)">
+                    <img :src="require(`@/assets/${worldPath}/${items.pic}`)">
                 </div>
                 <div class="img-description">
                     <span class = "img-title" v-text="items.title"></span>
