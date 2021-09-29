@@ -33,3 +33,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 | 5_TxtImg2 | 2nd component(One text content and two images on the top right and bottom left) added (Dynamically improved)  |
 | 6_ExploreCarousel | Carousel component - auto scroll as well as header section implemented and made responsive with dynamic content |
 | 7_Globe | Lands of discovery section implemented and made responsive |
+| 8_Panels | Responsive Bottom section of home page |

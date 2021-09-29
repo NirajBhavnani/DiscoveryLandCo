@@ -3,6 +3,7 @@ import Title from "@/components/Title/Title.vue"
 import TxtImg2 from "@/components/TxtImg2/TxtImg2.vue"
 import ExploreCarousel from "@/components/ExploreCarousel/ExploreCarousel.vue";
 import Globe from "@/components/Globe/Globe.vue";
+import Panels from "@/components/Panels/Panels.vue";
 
 @Options({
   name:"Home",
@@ -10,7 +11,8 @@ import Globe from "@/components/Globe/Globe.vue";
     Title,
     TxtImg2,
     ExploreCarousel,
-    Globe
+    Globe,
+    Panels
   },
   data() {
     return {
