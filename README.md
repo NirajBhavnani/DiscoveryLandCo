@@ -32,3 +32,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 | 4_Title | Title component(first component of the screen) added and also dynamically improved contents |
 | 5_TxtImg2 | 2nd component(One text content and two images on the top right and bottom left) added (Dynamically improved)  |
 | 6_ExploreCarousel | Carousel component - auto scroll as well as header section implemented and made responsive with dynamic content |
+| 7_Globe | Lands of discovery section implemented and made responsive |
