@@ -26,6 +26,8 @@ import Panels from "@/components/Panels/Panels.vue";
         imgRight: string;
         imgLeft: string;
         carousel: [];
+        carouselH1: string;
+        carouselH2: string;
       }[],
     };
   },
