@@ -2,12 +2,14 @@ import { Options, Vue } from "vue-class-component";
 import Title from "@/components/Title/Title.vue";
 import ExploreCarousel from "@/components/ExploreCarousel/ExploreCarousel.vue";
 import TxtImg2 from "@/components/TxtImg2/TxtImg2.vue";
+import IntroSection from "@/components/IntroSection/IntroSection.vue";
 import BottomSection from "@/components/BottomSection/BottomSection.vue";
 
 @Options({
   name: "AboutDlc",
   components: {
     Title,
+    IntroSection,
     ExploreCarousel,
     TxtImg2,
     BottomSection
@@ -17,6 +19,9 @@ import BottomSection from "@/components/BottomSection/BottomSection.vue";
       elements: {} as {
         boldText: string;
         lightText: string;
+        introParas: [];
+        title: string;
+        txtParagraphs: [];
         carousel: [];
         carouselH1: string;
         header1: string;
@@ -30,6 +35,17 @@ import BottomSection from "@/components/BottomSection/BottomSection.vue";
     this.elements = {
       boldText: "Creating your",
       lightText: "perfect world",
+      introParas: [
+        "Founded in 1994 by Mike Meldman, Discovery Land Company is",
+        "a US-based real estate developer and operator of private residential",
+        "club communities and resorts with a world-renowned portfolio of",
+        "domestic and international properties.",
+      ],
+      title: "Our Mission",
+      txtParagraphs: [
+        "We don’t build buildings, but rather we build settings where families can create intergenerational memories and enrich their lives in exquisite and untouched sanctuaries. Everything we do is driven by the fundamental desire to create spaces where families can be together.",
+        "These settings offer a relaxed and comfortable sense of community featuring outstanding clubhouses, incredible residential offerings, premier golf courses, welcoming staff, world-class culinary offerings and our custom Outdoor Pursuits program; all offering the highest of service standards to enrich your experience.",
+      ],
       carousel: [
         {
           pic: "p1.jpg",
