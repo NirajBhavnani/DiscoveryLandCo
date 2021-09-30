@@ -20,7 +20,7 @@
         </div>
       </div>
       <div class="right-part img1">
-          <img :src="image" :alt="heading" />
+          <img :src="image" alt="Image" />
       </div>
     </div>
   </section>
