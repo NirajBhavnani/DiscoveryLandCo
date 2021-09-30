@@ -35,4 +35,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 | 7_Globe | Lands of discovery section implemented and made responsive |
 | 8_Panels | Responsive Bottom section of home page |
 | 9_AboutDlc | Responsive About DLC page is added with reusable components of home as well as additional components(IntroSection, BottomSection, multiple image sections) |
-| 10_Experiences | Responsive Experiences page is created which has reusable components of about-dlc as well as additional components |
+| 10_Experiences | Responsive Experiences page is created which has reusable components of about-dlc as well as additional components (ExperiencesArticle)|
