@@ -34,4 +34,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 | 6_ExploreCarousel | Carousel component - auto scroll as well as header section implemented and made responsive with dynamic content |
 | 7_Globe | Lands of discovery section implemented and made responsive |
 | 8_Panels | Responsive Bottom section of home page |
-| 9_AboutDlc | Responsive About DLC page is added with reusable components of home |
+| 9_AboutDlc | Responsive About DLC page is added with reusable components of home as well as additional components(BottomSection) |

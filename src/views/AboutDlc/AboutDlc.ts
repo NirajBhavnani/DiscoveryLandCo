@@ -2,6 +2,7 @@ import { Options, Vue } from "vue-class-component";
 import Title from "@/components/Title/Title.vue";
 import ExploreCarousel from "@/components/ExploreCarousel/ExploreCarousel.vue";
 import TxtImg2 from "@/components/TxtImg2/TxtImg2.vue";
+import BottomSection from "@/components/BottomSection/BottomSection.vue";
 
 @Options({
   name: "AboutDlc",
@@ -9,6 +10,7 @@ import TxtImg2 from "@/components/TxtImg2/TxtImg2.vue";
     Title,
     ExploreCarousel,
     TxtImg2,
+    BottomSection
   },
   data() {
     return {
