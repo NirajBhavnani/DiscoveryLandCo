@@ -12,6 +12,18 @@
       />
     </div>
       <ExploreCarousel :carouselH1="elements.carouselH1" :carousel="elements.carousel" worldPath="AboutDlc"/>
+      <div class="larger-image-section">
+      <img
+        :src="require('../../assets/AboutDlc/Restaurant.jpg')"
+        alt="Restaurant"
+        class="larger-image"
+      />
+      <img
+        :src="require('../../assets/AboutDlc/GolfClubHouse.jpg')"
+        alt="Restaurant"
+        class="larger-image"
+      />
+    </div>
       <TxtImg2 :header1="elements.header1" :paragraph="elements.paragraph" :imgRight="elements.imgRight" :imgLeft="elements.imgLeft"/>
       <BottomSection picture="AboutDlc.jpg"/>
   </div>
