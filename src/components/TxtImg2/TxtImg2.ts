@@ -20,6 +20,10 @@ import { Options, Vue } from "vue-class-component";
         },
         background : {
             type: String
+        },
+        mirror : {
+            type: Boolean,
+            default: false
         }
     }
 })

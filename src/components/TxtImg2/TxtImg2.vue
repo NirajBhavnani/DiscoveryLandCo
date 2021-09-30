@@ -1,6 +1,6 @@
 <template>
     <div class="container" :style='{"background-image": `url(${background})`}'>
-      <section id="TxtImg2">
+      <section id="TxtImg2" :class="[mirror ? 'mirror': '']">
         <div class="top-left">
           <h1 class="bold-header">
             <span class="header-first-half">

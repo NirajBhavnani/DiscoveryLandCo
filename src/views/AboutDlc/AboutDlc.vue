@@ -18,13 +18,14 @@
         alt="Restaurant"
         class="larger-image"
       />
+      <TxtImg2 :header1="elements.headerMirror" :paragraph="elements.paragraphMirror" :imgRight="elements.imgRightMirror" :imgLeft="elements.imgLeftMirror" :mirror="true"/>
       <img
         :src="require('../../assets/AboutDlc/GolfClubHouse.jpg')"
         alt="Restaurant"
         class="larger-image"
       />
     </div>
-      <TxtImg2 :header1="elements.header1" :paragraph="elements.paragraph" :imgRight="elements.imgRight" :imgLeft="elements.imgLeft"/>
+      <TxtImg2 :header1="elements.header1" :paragraph="elements.paragraph" :imgRight="elements.imgRight" :imgLeft="elements.imgLeft" :mirror="false"/>
       <BottomSection picture="AboutDlc.jpg"/>
   </div>
 </template>

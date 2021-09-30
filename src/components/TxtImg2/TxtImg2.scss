@@ -9,7 +9,12 @@
     @media screen and (max-width: 1024px) {
       padding: 4rem 0;
     }
-
+    &.mirror{
+      direction: rtl;
+      & *{
+        direction: ltr;
+      }
+    }
     display: grid;
     column-gap: 6rem;
     grid-template-columns: repeat(2, 1fr);
@@ -25,7 +30,6 @@
   flex-direction: column;
   row-gap: 2rem;
   text-align: left;
-  padding-left: 1.4rem;
   @media screen and (max-width: 1024px) {
     row-gap: 2rem;
     padding: 2rem;

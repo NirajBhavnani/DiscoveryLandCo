@@ -28,6 +28,10 @@ import BottomSection from "@/components/BottomSection/BottomSection.vue";
         paragraph: string;
         imgRight: string;
         imgLeft: string;
+        headerMirror: string;
+        paragraphMirror: string;
+        imgRightMirror: string;
+        imgLeftMirror: string;
       }[],
     };
   },
@@ -104,6 +108,10 @@ import BottomSection from "@/components/BottomSection/BottomSection.vue";
         "Every Discovery property is wonderfully in-tune with its natural surroundings - a harmonious blend of the architecturally impressive with the environmentally sensitive. And your every expectation will be met, with our meticulous eye for detail matching outstanding levels of craftsmanship and master building.",
       imgRight: require("@/assets/TxtImg2/AboutDlc/TxtImg1.jpg"),
       imgLeft: require("@/assets/TxtImg2/AboutDlc/TxtImg2.jpg"),
+      headerMirror: "Discovery Design",
+      paragraphMirror: "See the beauty in every corner of your new, bespoke home away from home. From fabrics and furniture pieces to floorplans, our professional designers will collaborate closely with you to create an interior living space which reflects your style and unique tastes as well as perfectly complementing your lifestyle.",
+      imgRightMirror: require("@/assets/TxtImg2/AboutDlc/TxtImg1Mirror.jpg"),
+      imgLeftMirror: require("@/assets/TxtImg2/AboutDlc/TxtImg2Mirror.jpg"),
     };
   },
 })
