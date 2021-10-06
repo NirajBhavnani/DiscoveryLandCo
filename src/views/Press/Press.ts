@@ -1,11 +1,13 @@
 import { Options, Vue } from "vue-class-component";
 import Title from "@/components/Title/Title.vue";
+import PressNewsArticles from "@/components/PressNewsArticles/PressNewsArticles.vue";
 import PressArticles from "@/components/PressArticles/PressArticles.vue";
 
 @Options({
   name: "Press",
   components: {
     Title,
+    PressNewsArticles,
     PressArticles,
   },
   data() {

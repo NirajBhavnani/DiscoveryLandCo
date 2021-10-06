@@ -7,6 +7,7 @@
         :imageBg="require('../../assets/pressBg.jpg')"
       />
     </div>
+    <PressNewsArticles />
     <PressArticles />
   </div>
 </template>
